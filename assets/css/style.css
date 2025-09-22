@@ -6,4 +6,48 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#container {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), #675afe),
+    url("../images/image-ban.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 10%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+header .logo p {
+  font-size: 70px;
+  color: #fff;
+  font-family: "Island Moments";
+  font-weight: bold;
+}
+
+header .menu {
+  display: flex;
+  list-style: none;
+}
+
+header .menu li {
+  margin: 0 15px;
+}
+
+header .menu li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
