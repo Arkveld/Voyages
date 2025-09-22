@@ -98,3 +98,8 @@ header .menu li a {
 ::-webkit-scrollbar-thumb {
   background-color: #ccc;
 }
+
+/******** Section à propos ************/
+#about {
+  height: 100vh;
+}
