@@ -351,3 +351,12 @@ input[type="submit"]:hover {
   height: 400px;
   border-radius: 20px;
 }
+
+/************ Footer *****************/
+
+footer {
+  background-color: #675afe;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
